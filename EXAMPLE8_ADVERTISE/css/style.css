@@ -1,0 +1,56 @@
+.main{
+     background-color:white;
+      margin-left:15%;
+      margin-right:15%;
+     margin-top: 2%;
+    }
+body{
+        background-image:url("../dark-wood.jpg");
+    }
+
+ul {
+      list-style-type: none;
+      margin: 0;
+      overflow: hidden;
+      background-color: lightgrey;
+      }
+td,tr{
+  align-items: center;
+  padding-left: 0%;
+
+}
+table{
+   border-spacing: 8px 8px;
+   margin-left: 18%;
+}
+
+li {
+      float: left;
+    }
+li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+li a:hover {
+      background-color: red;
+    }
+
+.active {
+      background-color: lightgrey;
+      color: black;
+    }
+
+.clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+.footer{
+      background-color:lightgrey;
+      color: white;
+      padding:1%;
+    }
